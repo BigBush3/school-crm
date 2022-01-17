@@ -20,7 +20,7 @@ export default function Reset() {
           </div>
           <TextField
             className={styles.emailInput}
-            sx={{ width: "30ch" }}
+            sx={{ width: "315px" }}
             variant="filled"
             id="email"
             label="Email"
@@ -31,7 +31,7 @@ export default function Reset() {
             className={[styles.buttonReset, styles.itemBlock]}
             variant="contained"
             disableElevation
-            sx={{ width: "33ch" }}
+            sx={{ width: "315px" }}
             style={{
               marginTop: "10px",
               marginBottom: "10px",
