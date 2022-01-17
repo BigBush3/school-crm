@@ -10,7 +10,7 @@ export default function Reset() {
         <div className={styles.block}>
           <div className={styles.title}>Password Reset</div>
           <div className={styles.subtitle}>
-            To reset your password, enter the email address that you've used to
+            To reset your password, enter the email address that you&apos;ve used to
             sign up
           </div>
           <TextField
