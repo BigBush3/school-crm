@@ -36,6 +36,7 @@
 
 .buttonReset {
   background-color: #1c1630;
+  margin-top: 10px;
 }
 
 .buttonReset:hover {
