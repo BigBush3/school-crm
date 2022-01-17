@@ -84,7 +84,7 @@ export default function Login() {
             style={{
               marginTop: "10px",
               marginBottom: "10px",
-              backgroundСolor: "#5e5373",
+              background: "#5e5373",
             }}
           >
             Sing Up

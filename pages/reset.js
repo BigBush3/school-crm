@@ -35,7 +35,7 @@ export default function Reset() {
             style={{
               marginTop: "10px",
               marginBottom: "10px",
-              backgroundСolor: "#5e5373",
+              background: "#5e5373",
             }}
           >
             Reset Password
