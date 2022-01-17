@@ -24,7 +24,7 @@ export default function Header() {
             <li>Ru</li>
           </ul>
         </div>
-        <div className={styles.icons}>
+        <div className={styles.icons} style="margin-top: 11px;">
           <IconButton className={styles.iconButton} aria-label="youtube">
             <YouTubeIcon />
           </IconButton>
