@@ -1,6 +1,8 @@
 import { Button, TextField } from "@mui/material";
 import Link from "next/link";
 import styles from "../styles/Forgot.module.css";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function Reset() {
   return (

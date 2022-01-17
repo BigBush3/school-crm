@@ -35,7 +35,8 @@
 }
 
 .buttonReset {
-  background-color: #5e5373;
+  background-color: #1c1630;
+  margin-top: 10px;
 }
 
 .buttonReset:hover {
