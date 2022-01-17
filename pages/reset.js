@@ -13,7 +13,7 @@ export default function Reset() {
           <div className={styles.title}>Password Reset</div>
           <div
             className={styles.subtitle}
-            style="margin-top: 10px; margin-bottom: 10px;"
+            style="margin-top:10px;margin-bottom:10px;"
           >
             To reset your password, enter the email address that you&apos;ve
             used to sign up
@@ -32,12 +32,12 @@ export default function Reset() {
             variant="contained"
             disableElevation
             sx={{ width: "33ch" }}
-            style="margin-top: 10px; margin-bottom: 10px; color: #5e5373;"
+            style="margin-top:10px;margin-bottom:10px;color:#5e5373;"
           >
             Reset Password
           </Button>
           <Link href="/login">
-            <Button style="color: #5e5373;" className={styles.buttonLogin}>Log in</Button>
+            <Button style="color:#5e5373;" className={styles.buttonLogin}>Log in</Button>
           </Link>
         </div>
         <Footer />

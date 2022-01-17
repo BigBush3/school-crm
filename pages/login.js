@@ -46,7 +46,7 @@ export default function Login() {
             label="Email"
             name="email"
             autoComplete="email"
-            style='margin-top: 10px; margin-bottom: 10px;'
+            style="margin-top:10px;margin-bottom:10px;"
           />
           <FormControl
             className={styles.passInput}
@@ -81,12 +81,14 @@ export default function Login() {
             variant="contained"
             disableElevation
             sx={{ width: "33ch" }}
-            style='margin-top: 10px; margin-bottom: 10px; color: #5e5373;'
+            style="margin-top:10px;margin-bottom:10px;color:#5e5373;"
           >
             Sing Up
           </Button>
           <Link href="/reset">
-            <Button className={styles.buttonForgot} style="color: #5e5373;">Forgot password?</Button>
+            <Button className={styles.buttonForgot} style="color:#5e5373;">
+              Forgot password?
+            </Button>
           </Link>
         </div>
         <Footer />
