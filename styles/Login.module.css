@@ -1,17 +1,17 @@
 .container {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
     url("https://thumb.tildacdn.com/tild3262-3430-4364-b261-653135363663/-/format/webp/2019_ELENA_IS_chair_.jpg");
-  padding: 0 2rem;
 }
 
 .main {
   min-height: 100vh;
   padding: 4rem 0;
-  flex: 1;
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .block {
@@ -31,17 +31,17 @@
 .title {
   font-size: 20px;
   font-weight: 800;
-  color: #1c1630;
+  color: #5e5373;
 }
 
 .buttonSingUp {
-  background-color: #1c1630;
+  background-color: #5e5373;
 }
 
 .buttonSingUp:hover {
-  background-color: #1c1630;
+  background-color: #5e5373;
 }
 
 .buttonForgot {
-  color: #1c1630;
+  color: #5e5373;
 }

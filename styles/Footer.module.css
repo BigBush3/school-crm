@@ -1,0 +1,62 @@
+.container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 2px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.block {
+  height: 150px;
+  width: 100%;
+  padding: 0 10rem;
+  font-weight: 600;
+  background: #5e5373;
+}
+
+.blockRow {
+  padding-top: 1.5rem;
+  justify-content: center;
+  display: flex;
+}
+
+.blockElementIp {
+  flex: 0 1 33.333%;
+  color: white;
+  opacity: 0.65;
+  font-size: 18px;
+}
+
+.blockElementLogo {
+  text-align: center;
+  flex: 0 1 33.333%;
+  color: white;
+}
+
+.blockElementRules {
+  font-size: 18px;
+  text-align: end;
+  flex: 0 1 33.333%;
+  color: white;
+}
+
+.spanBlack {
+  color: black;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.iconButton {
+  margin-top: 3px;
+  margin-right: 5px;
+  height: 32px;
+  width: 32px;
+  color: #5e5373;
+  background: white;
+}

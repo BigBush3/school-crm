@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 60px;
+  background: whitesmoke;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 0 4rem;
+  box-shadow: 0 2px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.main {
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.titles {
+  display: inline-block;
+}
+
+.iconButton {
+  margin-top: 11px;
+  margin-right: 5px;
+  height: 42px;
+  width: 42px;
+  color: #5e5373;
+}
+
+.titles {
+  display: inline-block;
+  margin-left: 90px;
+  font-size: 0;
+}
+
+.titles li {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  margin-right: 14px;
+  color: #5e5373;
+}
+
+.headerLogo {
+  max-width: 80px;
+  display: inline-block;
+  position: absolute;
+  z-index: 10;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}

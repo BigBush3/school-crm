@@ -6,6 +6,7 @@ export default function Reset() {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
+        <Header />
         <div className={styles.block}>
           <div className={styles.title}>Password Reset</div>
           <div className={styles.subtitle}>
@@ -25,7 +26,7 @@ export default function Reset() {
             className={[styles.buttonReset, styles.itemBlock]}
             variant="contained"
             disableElevation
-            sx={{ width: "30ch" }}
+            sx={{ width: "33ch" }}
           >
             Reset Password
           </Button>
@@ -33,6 +34,7 @@ export default function Reset() {
             <Button className={styles.buttonLogin}>Log in</Button>
           </Link>
         </div>
+        <Footer />
       </div>
     </div>
   );

@@ -6,6 +6,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+a {
+  color: white;
+  vertical-align: baseline;  
+	font-family: inherit;  
+	font-style: inherit;  
+	font-size: 100%;  
+	border: none;  
+	padding: 0;  
+	margin: 0; 
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }

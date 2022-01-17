@@ -8,6 +8,8 @@ import InputLabel from "@mui/material/InputLabel";
 import FilledInput from "@mui/material/FilledInput";
 import * as React from "react";
 import styles from "../styles/Login.module.css";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function Login() {
   const [values, setValues] = React.useState({
@@ -33,6 +35,7 @@ export default function Login() {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
+        <Header />
         <div className={styles.block}>
           <div className={styles.title}>Log Into Your Account</div>
           <TextField
@@ -76,7 +79,7 @@ export default function Login() {
             className={[styles.buttonSingUp, styles.itemBlock]}
             variant="contained"
             disableElevation
-            sx={{ width: "12ch" }}
+            sx={{ width: "33ch" }}
           >
             Sing Up
           </Button>
@@ -84,6 +87,7 @@ export default function Login() {
             <Button className={styles.buttonForgot}>Forgot password?</Button>
           </Link>
         </div>
+        <Footer />
       </div>
     </div>
   );
