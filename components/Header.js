@@ -24,7 +24,7 @@ export default function Header() {
             <li>Ru</li>
           </ul>
         </div>
-        <div className={styles.icons} style={{marginTop: "13px"}}>
+        <div className={styles.icons} style={{marginTop: "18px"}}>
           <IconButton className={styles.iconButton} aria-label="youtube">
             <YouTubeIcon />
           </IconButton>

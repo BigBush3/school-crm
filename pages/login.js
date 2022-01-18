@@ -40,7 +40,6 @@ export default function Login() {
           <div className={styles.title}>Log Into Your Account</div>
           <TextField
             className={[styles.itemBlock, styles.emailInput]}
-            sx={{ width: "315px" }}
             variant="filled"
             id="email"
             label="Email"
@@ -50,7 +49,6 @@ export default function Login() {
           />
           <FormControl
             className={styles.passInput}
-            sx={{ width: "315px" }}
             variant="filled"
           >
             <InputLabel htmlFor="filled-adornment-password">
@@ -80,7 +78,6 @@ export default function Login() {
             className={[styles.buttonSingUp, styles.itemBlock]}
             variant="contained"
             disableElevation
-            sx={{ width: "315px" }}
             style={{
               marginTop: "10px",
               marginBottom: "10px",

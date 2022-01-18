@@ -15,8 +15,8 @@
 }
 
 .block {
-  width: 350px;
-  height: 300px;
+  width: 360px;
+  height: 309px;
   background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   flex-direction: column;
@@ -25,23 +25,41 @@
 }
 
 .itemBlock {
-  margin: 10px 0;
+  margin: 18px 0;
 }
 
 .title {
   font-size: 20px;
   font-weight: 800;
-  color: #5e5373;
+  color: #302a42;
 }
 
 .buttonSingUp {
-  background-color: #5e5373;
+  width: 300px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #302a42;
 }
 
 .buttonSingUp:hover {
-  background-color: #5e5373;
+  background-color: #302a42;
 }
 
 .buttonForgot {
-  color: #5e5373;
+  width: 300px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #302a42;
+}
+
+.passInput {
+  width: 300px;
+  height: 50px;
+}
+
+.emailInput {
+  width: 300px;
+  height: 50px;
 }
