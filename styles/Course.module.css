@@ -4,7 +4,6 @@
 
 .main {
   min-height: 100vh;
-  padding: 0 10rem;
 }
 
 .userBlock {
@@ -27,6 +26,7 @@
 }
 
 .titleBlock {
+  padding: 0 10rem;
   height: 330px;
   padding-top: 14rem;
 }
@@ -53,14 +53,15 @@
 }
 
 .blockVideos {
+  padding: 0 10rem;
   padding-top: 2rem;
 }
 
 .titleBlockVideos {
   background-color: whitesmoke;
   font-size: 42px;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
   margin-top: 15.5rem;
 }
 
@@ -77,7 +78,7 @@
 }
 
 .videoBlockFourth {
-    width: 1050px;
+  width: 1050px;
 }
 
 .descVideo {
@@ -91,5 +92,6 @@
 }
 
 .videoHr {
-    margin-bottom: 15px;
+  padding: 0 10rem;
+  margin-bottom: 15px;
 }
