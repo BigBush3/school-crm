@@ -1,0 +1,95 @@
+.container {
+  margin-top: 5.5rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 0 10rem;
+}
+
+.userBlock {
+  position: absolute;
+  right: 10rem;
+}
+
+.userPhoto {
+  display: inline-block;
+}
+
+.userInfo {
+  padding: 0 0 0 1rem;
+  display: inline-block;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.titleBlock {
+  height: 330px;
+  padding-top: 14rem;
+}
+
+.titleImage {
+  width: 430px;
+  height: 330px;
+  float: right;
+  margin-right: 4rem;
+}
+
+.titleDesc {
+  padding-top: 1rem;
+  font-size: 22px;
+}
+
+.descTitle {
+  font-size: 42px;
+  padding-bottom: 1rem;
+}
+
+.descSubtitle {
+  opacity: 0.8;
+}
+
+.blockVideos {
+  padding-top: 2rem;
+}
+
+.titleBlockVideos {
+  background-color: whitesmoke;
+  font-size: 42px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 15.5rem;
+}
+
+.videoBlock {
+  width: 1000px;
+}
+
+.videoBlockSecond {
+  width: 810px;
+}
+
+.videoBlockThird {
+  width: 1130px;
+}
+
+.videoBlockFourth {
+    width: 1050px;
+}
+
+.descVideo {
+  font-size: 24px;
+  float: right;
+}
+
+.subtitleVideo {
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.videoHr {
+    margin-bottom: 15px;
+}
