@@ -23,14 +23,14 @@ export default function Footer() {
               <div>
                 <IconButton
                   className={styles.iconButton}
-                  style={{ background: "#f8f9fd", color: "#302a42" }}
+                  style={{ background: "#f8f9fd", color: "#302a42", marginRight: "4px" }}
                   aria-label="youtube"
                 >
                   <YouTubeIcon />
                 </IconButton>
                 <IconButton
                   className={styles.iconButton}
-                  style={{ background: "#f8f9fd", color: "#302a42" }}
+                  style={{ background: "#f8f9fd", color: "#302a42", marginRight: "4px" }}
                   aria-label="instagram"
                 >
                   <InstagramIcon />

@@ -30,7 +30,7 @@ export default function Header() {
         <div className={styles.icons} style={{ marginTop: "18px" }}>
           <IconButton
             className={styles.iconButton}
-            style={{ background: "#302a42", color: "#f8f9fd" }}
+            style={{ background: "#302a42", color: "#f8f9fd", marginRight: "4px" }}
             aria-label="youtube"
           >
             <YouTubeIcon />
