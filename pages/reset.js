@@ -46,8 +46,8 @@ export default function Reset() {
             </Button>
           </Link>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

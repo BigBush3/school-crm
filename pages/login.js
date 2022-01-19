@@ -95,8 +95,8 @@ export default function Login() {
             </Button>
           </Link>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

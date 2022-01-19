@@ -2,6 +2,7 @@ import styles from "../styles/Header.module.css";
 import IconButton from "@mui/material/IconButton";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -18,7 +19,9 @@ export default function Header() {
           </div>
           <ul className={styles.titles}>
             <li>Members</li>
-            <li>Courses</li>
+            <Link href="/courses">
+              <li>Courses</li>
+            </Link>
             <li>Contact</li>
             <li>En</li>
             <li>Ru</li>

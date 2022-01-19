@@ -1,0 +1,97 @@
+.container {
+  margin-top: 5.5rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 0 10rem;
+}
+
+.userBlock {
+  position: absolute;
+  right: 10rem;
+}
+
+.userPhoto {
+  display: inline-block;
+}
+
+.userInfo {
+  padding: 0 0 0 1rem;
+  display: inline-block;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.courseContainer {
+  width: 810px;
+}
+
+.title {
+  padding-top: 4.5rem;
+  font-size: 38px;
+}
+
+.coursePhoto {
+  padding-top: 1rem;
+  padding-left: 4rem;
+  display: inline-block;
+}
+
+.logoCourse {
+  float: left;
+  width: 260px;
+  height: 260px;
+}
+
+.courseInfo {
+  padding-top: 1rem;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-between;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+  float: left;
+}
+
+.titleName {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.from {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.learnButton {
+  border: 1px solid black;
+  width: 52px;
+  padding: 5px;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.description {
+  opacity: 0.9;
+  font-size: 24px;
+}
+
+.subtitle {
+  padding-top: 1rem;
+  opacity: 0.8;
+  width: 350px;
+}
