@@ -27,11 +27,19 @@ export default function Header() {
             <li>Ru</li>
           </ul>
         </div>
-        <div className={styles.icons} style={{marginTop: "18px"}}>
-          <IconButton className={styles.iconButton} aria-label="youtube">
+        <div className={styles.icons} style={{ marginTop: "18px" }}>
+          <IconButton
+            className={styles.iconButton}
+            style={{ background: "#302a42", color: "#f8f9fd" }}
+            aria-label="youtube"
+          >
             <YouTubeIcon />
           </IconButton>
-          <IconButton className={styles.iconButton} aria-label="instagram">
+          <IconButton
+            className={styles.iconButton}
+            style={{ background: "#302a42", color: "#f8f9fd" }}
+            aria-label="instagram"
+          >
             <InstagramIcon />
           </IconButton>
         </div>

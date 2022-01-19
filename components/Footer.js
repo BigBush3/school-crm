@@ -1,5 +1,5 @@
 import styles from "../styles/Footer.module.css";
-import IconButton from "@mui/material/IconButton"
+import IconButton from "@mui/material/IconButton";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -21,13 +21,25 @@ export default function Footer() {
               </a>
               <div className={styles.subtitle}>BE OUR FRIEND</div>
               <div>
-                <IconButton className={styles.iconButton} aria-label="youtube">
+                <IconButton
+                  className={styles.iconButton}
+                  style={{ background: "#f8f9fd", color: "#302a42" }}
+                  aria-label="youtube"
+                >
                   <YouTubeIcon />
                 </IconButton>
-                <IconButton className={styles.iconButton} aria-label="instagram">
+                <IconButton
+                  className={styles.iconButton}
+                  style={{ background: "#f8f9fd", color: "#302a42" }}
+                  aria-label="instagram"
+                >
                   <InstagramIcon />
                 </IconButton>
-                <IconButton className={styles.iconButton} aria-label="telegram">
+                <IconButton
+                  className={styles.iconButton}
+                  style={{ background: "#f8f9fd", color: "#302a42" }}
+                  aria-label="telegram"
+                >
                   <TelegramIcon />
                 </IconButton>
               </div>
