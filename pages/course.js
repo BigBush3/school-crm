@@ -52,7 +52,9 @@ export default function Course() {
               </span>
             </div>
           </div>
-          <div className={styles.titleBlockVideos}>1 block</div>
+          <div className={styles.titleBlockVideos}>
+            <div className={styles.title}>1 block</div>
+          </div>
           <div className={styles.blockVideos}>
             <div className={styles.videoBlock}>
               <div className={styles.descVideo}>
@@ -71,7 +73,8 @@ export default function Course() {
               <div className={styles.descVideo}>
                 <div className={styles.descTitle}>2. Practic</div>
                 <div>
-                  Виды перспективы <br />— Одноточечная <br />— Двухточечная <br />— Трехточечная
+                  Виды перспективы <br />— Одноточечная <br />— Двухточечная{" "}
+                  <br />— Трехточечная
                 </div>
               </div>
               <div className={styles.video}>
@@ -84,7 +87,9 @@ export default function Course() {
           <div className={styles.blockVideos}>
             <div className={styles.videoBlockThird}>
               <div className={styles.descVideo}>
-                <div className={styles.descTitle}>3. Материалы для скетчинга</div>
+                <div className={styles.descTitle}>
+                  3. Материалы для скетчинга
+                </div>
               </div>
               <div className={styles.video}>
                 <YouTube videoId="mMoFDxscWig" opts={opts} />
