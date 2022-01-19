@@ -46,7 +46,9 @@ export default function Courses() {
                   Self-development in design and revolutions <br />
                   in the minds of the early 20s.
                 </div>
-                <div className={styles.learnButton}>Learn</div>
+                <Link href="/course">
+                  <div className={styles.learnButton}>Learn</div>
+                </Link>
               </div>
               <div>
                 <div className={styles.courseContainer}>
