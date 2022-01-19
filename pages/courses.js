@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styles from "../styles/Courses.module.css";
+import Link from "next/link";
 
 export default function Courses() {
   return (
@@ -20,7 +21,9 @@ export default function Courses() {
             <div className={styles.userInfo}>
               <div>UserName (user@email.com)</div>
               <div>Edit Profile</div>
-              <div>Log out</div>
+              <Link href="/login">
+                <div className={styles.logOut}>Log out</div>
+              </Link>
             </div>
           </div>
           <div>

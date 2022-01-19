@@ -67,6 +67,10 @@
   float: left;
 }
 
+.logOut {
+  cursor: pointer;
+}
+
 .titleName {
   padding-top: 10px;
   font-size: 16px;
