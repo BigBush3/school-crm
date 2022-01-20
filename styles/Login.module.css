@@ -1,6 +1,7 @@
 .container {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
     url("https://thumb.tildacdn.com/tild3262-3430-4364-b261-653135363663/-/format/webp/2019_ELENA_IS_chair_.jpg");
+  background-position: center;
 }
 
 .main {
@@ -16,30 +17,30 @@
 
 .block {
   width: 360px;
-  height: 309px;
-  background-color: rgba(255, 255, 255, 0.7);
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.45);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.itemBlock {
-  margin: 18px 0;
-}
-
 .title {
-  font-size: 20px;
-  font-weight: 800;
   color: #302a42;
+  font-size: 18px;
+  font-family: "Arial", Arial, sans-serif;
+  line-height: 1.45;
+  font-weight: 700;
 }
 
 .buttonSingUp {
-  width: 300px;
-  height: 50px;
+  color: #fff;
+  background-color: #302a42;
   font-weight: 600;
   font-size: 18px;
-  background-color: #302a42;
+  width: 300px;
+  height: 50px;
+  text-transform: capitalize;
 }
 
 .buttonSingUp:hover {
@@ -47,19 +48,31 @@
 }
 
 .buttonForgot {
-  width: 300px;
-  height: 50px;
-  font-size: 14px;
-  font-weight: 400;
   color: #302a42;
+  font-size: 14px;
+  font-family: "Arial", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 .passInput {
   width: 300px;
-  height: 50px;
+  height: 55px;
+  background-color: #f8f9fd;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .emailInput {
   width: 300px;
-  height: 50px;
+  height: 55px;
+  background-color: #f8f9fd;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.logo {
+  width: 78px;
+  height: 78px;
 }

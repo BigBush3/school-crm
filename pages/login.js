@@ -35,9 +35,19 @@ export default function Login() {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <Header />
         <div className={styles.block}>
-          <div className={styles.title}>Log Into Your Account</div>
+          <img
+            className={styles.logo}
+            src={
+              "https://static.tildacdn.com/tild3435-6463-4436-a637-393566323462/Logo_purple_eng.png"
+            }
+          />
+          <div
+            className={styles.title}
+            style={{ marginTop: "10px", marginBottom: "10px" }}
+          >
+            Log Into Your Account
+          </div>
           <TextField
             className={[styles.itemBlock, styles.emailInput]}
             variant="filled"
@@ -45,9 +55,9 @@ export default function Login() {
             label="Email"
             name="email"
             autoComplete="email"
-            style={{ marginTop: "10px", marginBottom: "10px" }}
           />
           <FormControl
+            style={{ marginTop: "10px", marginBottom: "10px" }}
             className={styles.passInput}
             variant="filled"
           >
@@ -79,9 +89,7 @@ export default function Login() {
             variant="contained"
             disableElevation
             style={{
-              marginTop: "10px",
-              marginBottom: "10px",
-              background: "#5e5373",
+              background: "#302a42",
             }}
           >
             Sing Up
@@ -89,14 +97,17 @@ export default function Login() {
           <Link href="/reset">
             <Button
               className={styles.buttonForgot}
-              style={{ color: "#5e5373" }}
+              style={{
+                marginTop: "10px",
+                marginBottom: "10px",
+                color: "#302a42",
+              }}
             >
               Forgot password?
             </Button>
           </Link>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
