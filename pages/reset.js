@@ -33,12 +33,16 @@ export default function Reset() {
               marginTop: "10px",
               marginBottom: "10px",
               background: "#302a42",
+              textTransform: "capitalize",
             }}
           >
             Reset Password
           </Button>
           <Link href="/login">
-            <Button style={{ color: "#302a42" }} className={styles.buttonLogin}>
+            <Button
+              style={{ color: "#302a42", textTransform: "capitalize" }}
+              className={styles.buttonLogin}
+            >
               Log in
             </Button>
           </Link>

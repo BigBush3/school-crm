@@ -90,6 +90,7 @@ export default function Login() {
             disableElevation
             style={{
               background: "#302a42",
+              textTransform: "capitalize",
             }}
           >
             Sing Up
@@ -101,6 +102,7 @@ export default function Login() {
                 marginTop: "10px",
                 marginBottom: "10px",
                 color: "#302a42",
+                textTransform: "capitalize",
               }}
             >
               Forgot password?
