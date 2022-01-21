@@ -1,0 +1,88 @@
+.main {
+  min-height: 100vh;
+  padding: 0 15rem;
+}
+
+.userBlock {
+  margin-top: 11px;
+  position: absolute;
+  right: 15rem;
+}
+
+.userPhoto {
+  display: inline-block;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+.userInfo {
+  padding: 0 0 0 1rem;
+  display: inline-block;
+}
+
+.courseTitle {
+  font-size: 32px;
+  padding-top: 150px;
+  padding-bottom: 14px;
+}
+
+.photoCourse {
+  margin-top: 51px;
+  width: 280px;
+  height: 268px;
+}
+
+.course {
+  display: flex;
+  width: 100%;
+  margin-bottom: 51px;
+}
+
+.descCourse {
+  display: inline-block;
+}
+
+.descTitle {
+  color: #302a42;
+  font-size: 26px;
+  margin-top: 50px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.descSubtitle {
+  color: #302a42;
+  font-size: 18px;
+  margin-top: 13px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+}
+
+.desc {
+  color: #302a42;
+  font-size: 18px;
+  margin-top: 18px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+.buttonLearn {
+  margin-left: 119px;
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 46px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 500;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: #00b358;
+  width: 200px;
+  height: 50px;
+}

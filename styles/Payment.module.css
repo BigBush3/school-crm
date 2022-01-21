@@ -58,6 +58,7 @@
 .finalPrice {
   text-align: right;
   flex: 0 1 18%;
+  padding-right: 8px;
 }
 
 .priceOne {
