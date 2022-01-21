@@ -26,7 +26,7 @@ export default function Reset() {
             autoComplete="email"
           />
           <Button
-            className={[styles.buttonReset, styles.itemBlock]}
+            className={styles.buttonReset}
             variant="contained"
             disableElevation
             style={{

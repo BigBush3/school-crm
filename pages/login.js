@@ -49,7 +49,7 @@ export default function Login() {
             Log Into Your Account
           </div>
           <TextField
-            className={[styles.itemBlock, styles.emailInput]}
+            className={styles.emailInput}
             variant="filled"
             id="email"
             label="Email"
@@ -85,7 +85,7 @@ export default function Login() {
             />
           </FormControl>
           <Button
-            className={[styles.buttonSingUp, styles.itemBlock]}
+            className={styles.buttonSingUp}
             variant="contained"
             disableElevation
             style={{
