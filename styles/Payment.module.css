@@ -44,7 +44,6 @@
   width: 100px;
   height: 100px;
   margin-left: 20px;
-  margin-right: 20px;
 }
 
 .desc {
@@ -54,6 +53,7 @@
   font-family: "JournalSansNew", Arial, sans-serif;
   line-height: 1.55;
   font-weight: 400;
+  margin-left: 10px;
 }
 
 .finalPrice {
