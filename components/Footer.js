@@ -20,7 +20,7 @@ export default function Footer() {
                 © LAKMUS SCHOOL
               </a>
               <div className={styles.subtitle}>BE OUR FRIEND</div>
-              <div>
+              <div className={styles.iconBlock}>
                 <IconButton
                   className={styles.iconButton}
                   style={{
