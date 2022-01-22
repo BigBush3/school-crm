@@ -58,21 +58,25 @@ export default function Course() {
           <div className={styles.blockVideos}>
             <div className={styles.videoBlock}>
               <div className={styles.descVideo}>
-                <div className={styles.descTitle}>1. What is perspective?</div>
-                <div>Types of Perspective</div>
+                <div className={styles.descVideoTitle}>
+                  1. What is perspective?
+                </div>
+                <div className={styles.descVideoSubtitle}>
+                  Types of Perspective
+                </div>
               </div>
               <div className={styles.video}>
                 <YouTube videoId="oWkbjoq_NKY" opts={opts} />
               </div>
-              <div className={styles.subtitleVideo}>#1 Теория</div>
             </div>
+            <div className={styles.subtitleVideo}>#1 Теория</div>
             <hr className={styles.videoHr} />
           </div>
           <div className={styles.blockVideos}>
             <div className={styles.videoBlockSecond}>
               <div className={styles.descVideo}>
-                <div className={styles.descTitle}>2. Practic</div>
-                <div>
+                <div className={styles.descVideoTitle}>2. Practic</div>
+                <div className={styles.descVideoSubtitle}>
                   Виды перспективы <br />— Одноточечная <br />— Двухточечная{" "}
                   <br />— Трехточечная
                 </div>
@@ -80,34 +84,36 @@ export default function Course() {
               <div className={styles.video}>
                 <YouTube videoId="Q0WSS-2tYtc" opts={opts} />
               </div>
-              <div className={styles.subtitleVideo}>#2 Практика</div>
             </div>
+            <div className={styles.subtitleVideo}>#2 Практика</div>
             <hr className={styles.videoHr} />
           </div>
           <div className={styles.blockVideos}>
             <div className={styles.videoBlockThird}>
               <div className={styles.descVideo}>
-                <div className={styles.descTitle}>
+                <div className={styles.descVideoTitle}>
                   3. Материалы для скетчинга
                 </div>
               </div>
               <div className={styles.video}>
                 <YouTube videoId="mMoFDxscWig" opts={opts} />
               </div>
-              <div className={styles.subtitleVideo}>#3 Теория</div>
             </div>
+            <div className={styles.subtitleVideo}>#3 Теория</div>
             <hr className={styles.videoHr} />
           </div>
           <div className={styles.blockVideos}>
             <div className={styles.videoBlockFourth}>
               <div className={styles.descVideo}>
-                <div className={styles.descTitle}>4. Как разогревать руку</div>
+                <div className={styles.descVideoTitle}>
+                  4. Как разогревать руку
+                </div>
               </div>
               <div className={styles.video}>
                 <YouTube videoId="oWkbjoq_NKY" opts={opts} />
               </div>
-              <div className={styles.subtitleVideo}>#4 Практика</div>
             </div>
+            <div className={styles.subtitleVideo}>#4 Практика</div>
             <hr className={styles.videoHr} />
           </div>
         </div>
