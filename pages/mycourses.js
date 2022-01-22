@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import styles from "../styles/MyCourses.module.css";
 import Link from "next/link";
 
-export default function Courses() {
+export default function MyCourses() {
   return (
     <div className={styles.container}>
       <div className={styles.main}>

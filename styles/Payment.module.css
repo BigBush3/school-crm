@@ -5,6 +5,14 @@
 .main {
   min-height: 100vh;
   padding: 0 15rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
 }
 
 .title {
@@ -13,8 +21,8 @@
   font-family: "JournalSansNew", Arial, sans-serif;
   line-height: 1.55;
   font-weight: 400;
-  text-align: center;
   margin-bottom: 31px;
+  text-align: center;
 }
 
 .firstBlock {
@@ -216,4 +224,38 @@
 
 .rules {
   color: #fe5c07;
+}
+
+@media (max-width: 1490px) {
+  .main {
+    padding: 0 10rem;
+  }
+}
+
+@media (max-width: 1330px) {
+  .main {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 1170px) {
+  .main {
+    padding: 0 1.7rem;
+  }
+  .priceBlock {
+    width: 416px;
+  }
+  .priceRow {
+    width: 416px;
+  }
+  .descBlock {
+    width: 416px;
+  }
+  .image {
+    margin-right: 23px;
+    margin-left: 7px;
+  }
+  .finalPrice {
+    padding-right: 14px;
+  }
 }

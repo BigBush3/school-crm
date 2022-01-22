@@ -4,12 +4,12 @@ import styles from "../styles/Payment.module.css";
 
 export default function Courses() {
   return (
-    <div className={styles.container}>
+    <div>
       <div className={styles.main}>
         <Header />
-        <div>
+        <div className={styles.container}>
           <div className={styles.title}>My bag</div>
-          <div>
+          <div className={styles.content}>
             <div className={styles.firstBlock}>
               <div className={styles.priceBlock}>
                 <div className={styles.priceRow}>
