@@ -40,9 +40,11 @@ export default function Courses() {
             <div className={styles.secondBlock}>
               <div className={styles.paymentBlock}>
                 <div className={styles.promoBlock}>
-                  <div className={styles.promo}>Promo code:</div>
-                  <div>
-                    <input className={styles.promoInput} />
+                  <div className={styles.promoIn}>
+                    <div className={styles.promo}>Promo code:</div>
+                    <div>
+                      <input className={styles.promoInput} />
+                    </div>
                   </div>
                   <div>
                     <button className={styles.buttonApply}>APPLY CODE</button>

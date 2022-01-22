@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   height: 70px;
-  background: rgba(248, 249, 253, 1);
+  background: rgb(248, 249, 253);
   position: fixed;
   z-index: 3000;
   left: 0;
@@ -61,4 +61,119 @@
 .logo {
   width: 80px;
   height: 80px;
+}
+
+.menuToggle {
+  opacity: 0;
+}
+
+.menuBtn {
+  display: flex;
+  align-items: center; 
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 4000;
+  border-radius: 100px;
+  background-color: rgba(17, 17, 17, 0.5);
+  justify-content: center;
+}
+
+.menuBtn > span,
+.menuBtn > span::before,
+.menuBtn > span::after {
+  display: block;
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  background-color: #fff;
+}
+.menuBtn > span::before {
+  content: "";
+  top: -8px;
+}
+.menuBtn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.menuBox {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: 100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  z-index: 3000;
+  list-style: none;
+  text-align: center;
+  background-color: #eceff1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.menuItem {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menuItem:hover {
+  background-color: #cfd8dc;
+}
+
+.menuToggle:checked ~ .menuBtn {
+  margin: 0;
+  background: none;
+}
+.menuToggle:checked ~ .menuBtn > span {
+  transform: rotate(45deg);
+  background: black;
+}
+.menuToggle:checked ~ .menuBtn > span::before {
+  top: 0;
+  transform: rotate(0);
+  background: black;
+}
+.menuToggle:checked ~ .menuBtn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+  background: black;
+}
+.menuToggle:checked ~ .menuBox {
+  visibility: visible;
+  right: 0;
+}
+
+.menuBtn > span,
+.menuBtn > span::before,
+.menuBtn > span::after {
+  transition-duration: 0.25s;
+}
+.menuBox {
+  transition-duration: 0.25s;
+}
+.menuItem {
+  transition-duration: 0.25s;
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .hamburgerMenu {
+    display: block;
+  }
+  .container {
+    display: none;
+  }
 }
