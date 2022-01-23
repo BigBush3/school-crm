@@ -54,6 +54,7 @@
   font-weight: 600;
 }
 
+
 .descSubtitle {
   color: #302a42;
   font-size: 18px;
@@ -86,3 +87,54 @@
   width: 200px;
   height: 50px;
 }
+
+@media (max-width: 1024px) {
+  .main {
+    padding: 0 10rem;
+  }
+  .userBlock {
+    right: 10rem;
+  }
+}
+
+@media (max-width: 874px) {
+  .main {
+    padding: 0 5rem;
+  }
+  .userBlock {
+    right: 5rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .main {
+    padding: 0 2.75rem;
+  }
+  .userBlock {
+    right: 2.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .courseTitle {
+    width: 100%;
+    text-align: center;
+  }
+  .course {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .buttonLearn {
+    margin-left: 0;
+  }
+  .userBlock {
+    right: auto;
+    top: 1rem;
+    left: 1rem;
+  }
+}
+
