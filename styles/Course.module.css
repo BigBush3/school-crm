@@ -246,7 +246,7 @@
 
 @media (max-width: 425px) {
   .userBlock {
-    right: auto;
+    right: 1rem;
     top: 1rem;
     left: 1rem;
   }
