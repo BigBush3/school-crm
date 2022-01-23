@@ -65,8 +65,12 @@ export default function Course() {
                   Types of Perspective
                 </div>
               </div>
-              <div className={styles.video}>
-                <YouTube videoId="oWkbjoq_NKY" opts={opts} />
+              <div>
+                <YouTube
+                  className={styles.video}
+                  videoId="oWkbjoq_NKY"
+                  opts={opts}
+                />
               </div>
             </div>
             <div className={styles.subtitleVideo}>#1 Теория</div>
@@ -81,8 +85,8 @@ export default function Course() {
                   <br />— Трехточечная
                 </div>
               </div>
-              <div className={styles.video}>
-                <YouTube videoId="Q0WSS-2tYtc" opts={opts} />
+              <div>
+                <YouTube className={styles.video} videoId="Q0WSS-2tYtc" opts={opts} />
               </div>
             </div>
             <div className={styles.subtitleVideo}>#2 Практика</div>
@@ -95,8 +99,8 @@ export default function Course() {
                   3. Материалы для скетчинга
                 </div>
               </div>
-              <div className={styles.video}>
-                <YouTube videoId="mMoFDxscWig" opts={opts} />
+              <div>
+                <YouTube className={styles.video} videoId="mMoFDxscWig" opts={opts} />
               </div>
             </div>
             <div className={styles.subtitleVideo}>#3 Теория</div>
@@ -109,8 +113,8 @@ export default function Course() {
                   4. Как разогревать руку
                 </div>
               </div>
-              <div className={styles.video}>
-                <YouTube videoId="oWkbjoq_NKY" opts={opts} />
+              <div>
+                <YouTube className={styles.video} videoId="oWkbjoq_NKY" opts={opts} />
               </div>
             </div>
             <div className={styles.subtitleVideo}>#4 Практика</div>

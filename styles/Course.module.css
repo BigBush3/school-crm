@@ -32,8 +32,7 @@
   padding-top: 14rem;
   display: flex;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .titleImage {
@@ -81,31 +80,35 @@
 }
 
 .videoBlock {
-  justify-content: start;
+  width: 100%;
+  height: 100%;
+  justify-content: left;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
 }
 
 .videoBlockSecond {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
-  justify-content: start;
+  justify-content: left;
 }
 
 .videoBlockThird {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
-  justify-content: start;
+  justify-content: left;
 }
 
 .videoBlockFourth {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
-  justify-content: start;
+  justify-content: left;
 }
 
 .descVideo {
@@ -124,4 +127,130 @@
 
 .title {
   padding-left: 10rem;
+}
+
+@media (max-width: 1285px) {
+  .titleBlock {
+    padding: 0 2rem;
+    padding-top: 14rem;
+  }
+  .blockVideos {
+    padding: 0 2rem;
+    padding-top: 2rem;
+  }
+  .title {
+    padding-left: 5rem;
+  }
+  .userBlock {
+    right: 5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin-top: 1rem;
+  }
+  .descVideoTitle {
+    font-size: 32px;
+    word-wrap: break-word;
+  }
+  .descVideoSubtitle {
+    font-size: 22px;
+    word-wrap: break-word;
+  }
+  .userBlock {
+    right: 2rem;
+  }
+}
+
+@media (max-width: 1042px) {
+  .titleImage {
+    width: 227px;
+    height: 178px;
+  }
+  .titleBlockVideos {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .videoBlock {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .videoBlockSecond {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .videoBlockThird {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .videoBlockFourth {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .subtitleVideo {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .descVideoTitle {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .descVideoSubtitle {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .descTitle {
+    font-size: 40px;
+  }
+  .descSubtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titleBlock {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .titleDesc {
+    margin: 0;
+  }
+  .titleBlockVideos {
+    width: 100%;
+    text-align: center;
+  }
+  .title {
+    padding: 0;
+  }
+}
+
+@media (max-width: 652px) {
+  .video {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .userBlock {
+    right: auto;
+    top: 1rem;
+    left: 1rem;
+  }
+  .videoHr {
+    padding: 0;
+  }
 }
