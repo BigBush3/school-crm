@@ -21,40 +21,17 @@ export default function Footer() {
               </a>
               <div className={styles.subtitle}>BE OUR FRIEND</div>
               <div className={styles.iconBlock}>
-                <IconButton
-                  className={styles.iconButton}
-                  style={{
-                    background: "#f8f9fd",
-                    color: "#302a42",
-                    marginRight: "4px",
-                    marginTop: "4px",
-                  }}
-                  aria-label="youtube"
-                >
-                  <YouTubeIcon />
+                <IconButton className={styles.iconButton} aria-label="telegram">
+                  <TelegramIcon />
                 </IconButton>
                 <IconButton
                   className={styles.iconButton}
-                  style={{
-                    background: "#f8f9fd",
-                    color: "#302a42",
-                    marginRight: "4px",
-                    marginTop: "4px",
-                  }}
                   aria-label="instagram"
                 >
                   <InstagramIcon />
                 </IconButton>
-                <IconButton
-                  className={styles.iconButton}
-                  style={{
-                    background: "#f8f9fd",
-                    color: "#302a42",
-                    marginTop: "4px",
-                  }}
-                  aria-label="telegram"
-                >
-                  <TelegramIcon />
+                <IconButton className={styles.iconButton} aria-label="youtube">
+                  <YouTubeIcon />
                 </IconButton>
               </div>
             </div>

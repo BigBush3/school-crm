@@ -39,74 +39,19 @@ export default function Login() {
           <img
             className={styles.logo}
             src={
-              "https://static.tildacdn.com/tild3435-6463-4436-a637-393566323462/Logo_purple_eng.png"
+              "https://thumb.tildacdn.com/tild6138-6434-4534-b137-616165616662/-/resize/156x/-/format/webp/Logo_purple_eng.png"
             }
           />
           <div
             className={styles.title}
-            style={{ marginTop: "10px", marginBottom: "10px" }}
           >
             Log Into Your Account
           </div>
-          <TextField
-            className={styles.emailInput}
-            variant="filled"
-            id="email"
-            label="Email"
-            name="email"
-            autoComplete="email"
-          />
-          <FormControl
-            style={{ marginTop: "10px", marginBottom: "10px" }}
-            className={styles.passInput}
-            variant="filled"
-          >
-            <InputLabel htmlFor="filled-adornment-password">
-              Password
-            </InputLabel>
-            <FilledInput
-              id="filled-adornment-password"
-              type={values.showPassword ? "text" : "password"}
-              value={values.password}
-              onChange={handleChange("password")}
-              endAdornment={
-                <InputAdornment position="end">
-                  <IconButton
-                    aria-label="toggle password visibility"
-                    onClick={handleClickShowPassword}
-                    onMouseDown={handleMouseDownPassword}
-                    edge="end"
-                  >
-                    {values.showPassword ? <VisibilityOff /> : <Visibility />}
-                  </IconButton>
-                </InputAdornment>
-              }
-              label="Password"
-            />
-          </FormControl>
-          <Button
-            className={styles.buttonSingUp}
-            variant="contained"
-            disableElevation
-            style={{
-              background: "#302a42",
-              textTransform: "capitalize",
-            }}
-          >
-            Sing Up
-          </Button>
+          <input placeholder={"Email"} className={styles.emailInput} />
+          <input placeholder={"Password"} className={styles.passInput} />
+          <button className={styles.buttonSingUp}>Sing Up</button>
           <Link href="/reset">
-            <Button
-              className={styles.buttonForgot}
-              style={{
-                marginTop: "10px",
-                marginBottom: "10px",
-                color: "#302a42",
-                textTransform: "capitalize",
-              }}
-            >
-              Forgot password?
-            </Button>
+            <button className={styles.buttonForgot}>Forgot password?</button>
           </Link>
         </div>
       </div>

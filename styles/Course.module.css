@@ -7,20 +7,22 @@
 }
 
 .userBlock {
+  display: flex;
   position: absolute;
   right: 10rem;
 }
 
-.userPhoto {
-  display: inline-block;
-}
-
 .userInfo {
+  color: #000000;
+  font-size: 18px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  opacity: 0.55;
   padding: 0 0 0 1rem;
-  display: inline-block;
 }
 
-.logo {
+.userPhoto {
   width: 80px;
   height: 80px;
 }
@@ -32,7 +34,7 @@
   padding-top: 14rem;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .titleImage {
@@ -194,6 +196,7 @@
     align-items: center;
     flex-direction: column-reverse;
   }
+
   .subtitleVideo {
     width: 100%;
     text-align: center;

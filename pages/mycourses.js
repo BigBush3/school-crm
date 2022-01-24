@@ -10,7 +10,7 @@ export default function MyCourses() {
           <div className={styles.userBlock}>
             <div className={styles.userPhoto}>
               <img
-                className={styles.logo}
+                className={styles.userPhoto}
                 src={
                   "https://thumb.tildacdn.com/tild6639-3938-4862-b336-326264376261/-/resize/100x/-/format/webp/designers1.png"
                 }
@@ -78,6 +78,10 @@ export default function MyCourses() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className={styles.subtitle}>
+            If you need help with your account, please contact
+            support@lakmus@school
           </div>
         </div>
       </div>

@@ -1,8 +1,6 @@
 import { Button, TextField } from "@mui/material";
 import Link from "next/link";
 import styles from "../styles/Reset.module.css";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 
 export default function Reset() {
   return (
@@ -10,41 +8,14 @@ export default function Reset() {
       <div className={styles.main}>
         <div className={styles.block}>
           <div className={styles.title}>Password Reset</div>
-          <div
-            className={styles.subtitle}
-            style={{ marginTop: "10px", marginBottom: "15px" }}
-          >
+          <div className={styles.subtitle}>
             To reset your password, enter the email address that you&apos;ve
             used to sign up
           </div>
-          <TextField
-            className={styles.emailInput}
-            variant="filled"
-            id="email"
-            label="Email"
-            name="email"
-            autoComplete="email"
-          />
-          <Button
-            className={styles.buttonReset}
-            variant="contained"
-            disableElevation
-            style={{
-              marginTop: "10px",
-              marginBottom: "10px",
-              background: "#302a42",
-              textTransform: "capitalize",
-            }}
-          >
-            Reset Password
-          </Button>
+          <input className={styles.emailInput} placeholder={"Email"} />
+          <button className={styles.buttonReset}>Reset Password</button>
           <Link href="/login">
-            <Button
-              style={{ color: "#302a42", textTransform: "capitalize" }}
-              className={styles.buttonLogin}
-            >
-              Log in
-            </Button>
+            <button className={styles.buttonLogin}>Log in</button>
           </Link>
         </div>
       </div>

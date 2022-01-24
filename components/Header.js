@@ -41,23 +41,11 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <div className={styles.icons} style={{ marginTop: "18px" }}>
-              <IconButton
-                className={styles.iconButton}
-                style={{
-                  background: "#302a42",
-                  color: "#f8f9fd",
-                  marginRight: "4px",
-                }}
-                aria-label="youtube"
-              >
+            <div className={styles.icons}>
+              <IconButton className={styles.iconButton} aria-label="youtube">
                 <YouTubeIcon />
               </IconButton>
-              <IconButton
-                className={styles.iconButton}
-                style={{ background: "#302a42", color: "#f8f9fd" }}
-                aria-label="instagram"
-              >
+              <IconButton className={styles.iconButton} aria-label="instagram">
                 <InstagramIcon />
               </IconButton>
             </div>
@@ -85,24 +73,12 @@ export default function Header() {
               <li>Ru</li>
             </ul>
           </div>
-          <div className={styles.icons} style={{ marginTop: "18px" }}>
-            <IconButton
-              className={styles.iconButton}
-              style={{
-                background: "#302a42",
-                color: "#f8f9fd",
-                marginRight: "4px",
-              }}
-              aria-label="youtube"
-            >
-              <YouTubeIcon />
+          <div className={styles.icons}>
+            <IconButton className={styles.iconButton} aria-label="youtube">
+              <YouTubeIcon className={styles.icon} />
             </IconButton>
-            <IconButton
-              className={styles.iconButton}
-              style={{ background: "#302a42", color: "#f8f9fd" }}
-              aria-label="instagram"
-            >
-              <InstagramIcon />
+            <IconButton className={styles.iconButton} aria-label="instagram">
+              <InstagramIcon className={styles.icon} />
             </IconButton>
           </div>
         </div>

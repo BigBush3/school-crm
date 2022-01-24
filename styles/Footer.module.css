@@ -10,7 +10,7 @@
 }
 
 .blockRow {
-  padding: 0 10rem;
+  padding: 0 40rem;
   padding-top: 28px;
   justify-content: center;
   display: flex;
@@ -19,9 +19,12 @@
 
 .blockElementIp {
   flex: 0 1 33.333%;
-  color: white;
-  opacity: 0.65;
+  color: #ffffff;
   font-size: 16px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.75;
+  font-weight: 400;
+  opacity: 0.8;
 }
 
 .blockElementLogo {
@@ -34,7 +37,10 @@
   font-size: 20px;
   text-align: end;
   flex: 0 1 33.333%;
-  color: white;
+  font-size: 20px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
 }
 
 .spanBlack {
@@ -42,25 +48,62 @@
 }
 
 .title {
-  font-size: 22px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .subtitle {
+  color: #ffffff;
   font-size: 16px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .iconButton {
   margin-top: 5px;
-  margin-right: 5px;
+  margin-right: 10px;
   height: 30px;
   width: 30px;
   color: #302a42;
-  opacity: 0.9;
   background: white;
 }
 
 .iconButton:hover {
   background: white;
+}
+
+@media(max-width: 1920px) {
+  .blockRow {
+    padding: 0 30rem;
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .blockRow {
+    padding: 0 20rem;
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .blockRow {
+    padding: 0 10rem;
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .blockRow {
+    padding: 0 5rem;
+    padding-top: 28px;
+  }
 }
 
 @media (max-width: 958px) {
@@ -79,5 +122,12 @@
   }
   .block {
     min-height: 160px;
+  }
+}
+
+@media (max-width: 425px) {
+  .blockRow {
+    padding: 0 3rem;
+    padding-top: 28px;
   }
 }

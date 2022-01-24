@@ -20,9 +20,9 @@ export default function Course() {
           <div className={styles.userBlock}>
             <div className={styles.userPhoto}>
               <img
-                className={styles.logo}
+                className={styles.userPhoto}
                 src={
-                  "https://static.tildacdn.com/tild3435-6463-4436-a637-393566323462/Logo_purple_eng.png"
+                  "https://thumb.tildacdn.com/tild6639-3938-4862-b336-326264376261/-/resize/100x/-/format/webp/designers1.png"
                 }
               />
             </div>
@@ -71,9 +71,9 @@ export default function Course() {
                   videoId="oWkbjoq_NKY"
                   opts={opts}
                 />
+                <div className={styles.subtitleVideo}>#1 Теория</div>
               </div>
             </div>
-            <div className={styles.subtitleVideo}>#1 Теория</div>
             <hr className={styles.videoHr} />
           </div>
           <div className={styles.blockVideos}>
@@ -86,10 +86,14 @@ export default function Course() {
                 </div>
               </div>
               <div>
-                <YouTube className={styles.video} videoId="Q0WSS-2tYtc" opts={opts} />
+                <YouTube
+                  className={styles.video}
+                  videoId="Q0WSS-2tYtc"
+                  opts={opts}
+                />
+                <div className={styles.subtitleVideo}>#2 Практика</div>
               </div>
             </div>
-            <div className={styles.subtitleVideo}>#2 Практика</div>
             <hr className={styles.videoHr} />
           </div>
           <div className={styles.blockVideos}>
@@ -100,10 +104,14 @@ export default function Course() {
                 </div>
               </div>
               <div>
-                <YouTube className={styles.video} videoId="mMoFDxscWig" opts={opts} />
+                <YouTube
+                  className={styles.video}
+                  videoId="mMoFDxscWig"
+                  opts={opts}
+                />
+                <div className={styles.subtitleVideo}>#3 Теория</div>
               </div>
             </div>
-            <div className={styles.subtitleVideo}>#3 Теория</div>
             <hr className={styles.videoHr} />
           </div>
           <div className={styles.blockVideos}>
@@ -114,10 +122,14 @@ export default function Course() {
                 </div>
               </div>
               <div>
-                <YouTube className={styles.video} videoId="oWkbjoq_NKY" opts={opts} />
+                <YouTube
+                  className={styles.video}
+                  videoId="oWkbjoq_NKY"
+                  opts={opts}
+                />
+                <div className={styles.subtitleVideo}>#4 Практика</div>
               </div>
             </div>
-            <div className={styles.subtitleVideo}>#4 Практика</div>
             <hr className={styles.videoHr} />
           </div>
         </div>

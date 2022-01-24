@@ -1,26 +1,28 @@
 .main {
   min-height: 100vh;
-  padding: 0 15rem;
+  padding: 0 12rem;
 }
 
 .userBlock {
   margin-top: 11px;
   position: absolute;
   right: 15rem;
+  display: flex;
 }
 
 .userPhoto {
-  display: inline-block;
-}
-
-.logo {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
 }
 
 .userInfo {
+  color: #000000;
+  font-size: 18px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  opacity: 0.55;
   padding: 0 0 0 1rem;
-  display: inline-block;
 }
 
 .courseTitle {
@@ -54,7 +56,6 @@
   font-weight: 600;
 }
 
-
 .descSubtitle {
   color: #302a42;
   font-size: 18px;
@@ -86,6 +87,16 @@
   background-color: #00b358;
   width: 200px;
   height: 50px;
+}
+
+.subtitle {
+  width: 500px;
+  padding: 45px 0;
+  font-size: 18px;
+  opacity: 0.7;
+  line-height: 1.35;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  font-weight: 300;
 }
 
 @media (max-width: 1024px) {
@@ -136,5 +147,18 @@
     top: 1rem;
     left: 1rem;
   }
+  .descCourse {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .descTitle {
+    text-align: center;
+  }
 }
 
+@media (max-width: 550px) {
+  .subtitle {
+    width: 100%;
+  }
+}

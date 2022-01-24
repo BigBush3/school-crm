@@ -7,13 +7,12 @@
   left: 0;
   top: 0;
   right: 0;
-  padding: 0 4rem;
+  padding: 0 40px;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 30%);
 }
 
 .main {
   width: 100%;
-  height: 50px;
   display: inline-flex;
   justify-content: space-between;
 }
@@ -22,12 +21,18 @@
   display: inline-block;
 }
 
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
 .iconButton {
   margin-right: 5px;
-  height: 32px;
-  width: 32px;
+  height: 30px;
+  width: 30px;
   background-color: #302a42;
   color: rgba(248, 249, 253);
+  margin-top: 27px;
 }
 
 .iconButton:hover {
@@ -37,14 +42,15 @@
 
 .titles {
   display: inline-block;
-  margin-left: 55px;
-  font-size: 0;
+  margin: 0;
+  margin-left: 57px;
+  margin-top: 27px;
 }
 
 .titles li {
-  margin-top: 20px;
+  text-decoration: none;
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 500;
   display: inline-block;
   padding: 0 15px;
   color: #302a42;

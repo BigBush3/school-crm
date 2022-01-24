@@ -1,12 +1,17 @@
 .container {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
     url("https://thumb.tildacdn.com/tild3262-3430-4364-b261-653135363663/-/format/webp/2019_ELENA_IS_chair_.jpg");
-  background-position: center;
+  min-height: 800px;
+  height: 100vh;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "JournalSansNew", sans-serif;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -21,7 +26,6 @@
   background-color: rgba(255, 255, 255, 0.45);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -31,6 +35,7 @@
   font-family: "Arial", Arial, sans-serif;
   line-height: 1.45;
   font-weight: 700;
+  margin-top: 18px;
 }
 
 .buttonReset {
@@ -42,33 +47,44 @@
   border-radius: 5px;
   font-weight: 600;
   font-size: 18px;
-  font-family: "JournalSansNew", sans-serif;
-  text-transform: capitalize;
-}
-
-.buttonReset:hover {
-  background-color: #302a42;
+  margin-top: 17px;
 }
 
 .buttonLogin {
   width: 300px;
-  height: 50px;
+  height: 21.7px;
   color: #302a42;
   font-size: 14px;
-  text-transform: capitalize;
+  font-family: "Arial", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background: transparent;
+  margin-top: 15px;
 }
 
 .subtitle {
-  font-size: 16px;
   padding: 0 30px;
-  color: #302a42;
   text-align: center;
+  color: #302a42;
+  font-size: 16px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  margin-top: 14px;
+  margin-bottom: 17px;
 }
 
 .emailInput {
   width: 300px;
-  height: 55px;
+  height: 40px;
+  color: #302a42;
+  border: 0px solid #302a42;
+  background-color: #f8f9fd;
   font-size: 16px;
   font-weight: 300;
-  background-color: #f8f9fd;
+}
+
+.emailInput::placeholder {
+  padding: 0 20px;
+  opacity: 0.8;
 }
