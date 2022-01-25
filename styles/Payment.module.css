@@ -247,6 +247,12 @@
   color: #fe5c07;
 }
 
+.bagHr {
+  color: #c7c7c7;
+  margin-bottom: 163px;
+  padding: 0;
+}
+
 @media (max-width: 1490px) {
   .main {
     padding: 0 10rem;

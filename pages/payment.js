@@ -84,6 +84,7 @@ export default function Courses() {
                 </div>
               </div>
             </div>
+            <hr className={styles.bagHr}/>
           </div>
         </div>
       </div>
