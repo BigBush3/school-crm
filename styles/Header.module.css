@@ -27,17 +27,17 @@
 }
 
 .iconButton {
-  margin-right: 5px;
+  margin-right: 5px !important;
   height: 30px;
   width: 30px;
-  background-color: #302a42;
-  color: rgba(248, 249, 253);
-  margin-top: 27px;
+  background-color: #302a42 !important;
+  color: rgba(248, 249, 253) !important;
+  margin-top: 27px !important;
 }
 
 .iconButton:hover {
-  background-color: #302a42;
-  color: rgba(248, 249, 253);
+  background-color: #302a42 !important;
+  color: rgba(248, 249, 253) !important;
 }
 
 .titles {

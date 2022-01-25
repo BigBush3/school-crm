@@ -15,10 +15,9 @@ export default function Course() {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <Header />
         <div className={styles.content}>
           <div className={styles.userBlock}>
-            <div className={styles.userPhoto}>
+            <div className={styles.userPhotoBlock}>
               <img
                 className={styles.userPhoto}
                 src={

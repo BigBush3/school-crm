@@ -1,5 +1,5 @@
 .container {
-  margin-top: 5.5rem;
+  margin-top: 1.5rem;
 }
 
 .main {
@@ -8,8 +8,12 @@
 
 .userBlock {
   display: flex;
-  position: absolute;
-  right: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-end;
+  padding: 0;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .userInfo {
@@ -23,38 +27,58 @@
 }
 
 .userPhoto {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
+  margin-left: 12.5px;
+  margin-top: 10px;
+}
+
+.userPhotoBlock {
+  width: 75px;
+  height: 75px;
+  border-radius: 3000px;
+  background-color: #dbdbdb;
 }
 
 .titleBlock {
-  padding: 0 10rem;
   width: 100%;
   height: 330px;
   padding-top: 14rem;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
 }
 
 .titleImage {
+  flex: 0 1 30%;
   width: 430px;
   height: 330px;
 }
 
 .titleDesc {
+  flex: 0 1 70%;
   padding-top: 1rem;
   font-size: 22px;
   margin-right: 4rem;
 }
 
 .descTitle {
+  color: #302a42;
   font-size: 42px;
-  padding-bottom: 1rem;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
 }
 
 .descSubtitle {
-  opacity: 0.8;
+  margin-top: 22px;
+  color: #302a42;
+  font-size: 28px;
+  font-family: "JournalSansNew", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
 }
 
 .descVideoTitle {
@@ -82,14 +106,22 @@
 }
 
 .videoBlock {
-  width: 100%;
+  max-width: 1200px;
   height: 100%;
   justify-content: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .videoBlockSecond {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -98,6 +130,10 @@
 }
 
 .videoBlockThird {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -106,6 +142,10 @@
 }
 
 .videoBlockFourth {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -114,6 +154,7 @@
 }
 
 .descVideo {
+  margin-left: 40px;
   font-size: 24px;
 }
 
@@ -123,12 +164,18 @@
 }
 
 .videoHr {
-  padding: 0 10rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .title {
-  padding-left: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  max-width: 1200px;
 }
 
 @media (max-width: 1285px) {
@@ -139,12 +186,6 @@
   .blockVideos {
     padding: 0 2rem;
     padding-top: 2rem;
-  }
-  .title {
-    padding-left: 5rem;
-  }
-  .userBlock {
-    right: 5rem;
   }
 }
 
@@ -160,8 +201,32 @@
     font-size: 22px;
     word-wrap: break-word;
   }
+  .videoBlock {
+    max-width: 960px;
+  }
+  .videoBlockFourth {
+    max-width: 960px;
+  }
+  .videoBlockSecond {
+    max-width: 960px;
+  }
+  .videoBlockThird {
+    max-width: 960px;
+  }
+  .titleBlock {
+    max-width: 960px;
+  }
+  .videoHr {
+    max-width: 960px;
+  }
+  .title {
+    max-width: 960px;
+  }
   .userBlock {
-    right: 2rem;
+    max-width: 960px;
+  }
+  .descVideo {
+    margin-left: 20px;
   }
 }
 
@@ -178,38 +243,34 @@
 @media (max-width: 960px) {
   .videoBlock {
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: column-reverse;
+    max-width: 640px;
   }
   .videoBlockSecond {
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: column-reverse;
+    max-width: 640px;
   }
   .videoBlockThird {
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: column-reverse;
+    max-width: 640px;
   }
   .videoBlockFourth {
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: column-reverse;
+    max-width: 640px;
   }
-
   .subtitleVideo {
     width: 100%;
-    text-align: center;
     margin-top: 15px;
   }
   .descVideoTitle {
     width: 100%;
-    text-align: center;
     margin: 0;
   }
   .descVideoSubtitle {
     width: 100%;
-    text-align: center;
     margin: 0;
   }
   .descTitle {
@@ -218,12 +279,36 @@
   .descSubtitle {
     font-size: 24px;
   }
+  .titleImage {
+    width: 414px;
+    height: 328px;
+  }
+  .titleBlock {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    max-width: 640px;
+  }
+  .title {
+    width: 100%;
+    max-width: 640px;
+  }
+  .videoHr {
+    max-width: 640px;
+  }
+  .userBlock {
+    justify-content: flex-start;
+    max-width: 640px;
+  }
+  .descVideo {
+    margin: 0;
+  }
 }
 
 @media (max-width: 768px) {
   .titleBlock {
     flex-wrap: wrap;
-    align-items: center;
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -233,10 +318,13 @@
   }
   .titleBlockVideos {
     width: 100%;
-    text-align: center;
   }
+}
+
+@media (max-width: 700px) {
   .title {
-    padding: 0;
+    margin: 0;
+    padding: 0 2rem;
   }
 }
 
@@ -245,14 +333,22 @@
     width: 100%;
     height: 100%;
   }
+  .titleBlock {
+    flex-direction: column-reverse;
+  }
+  .titleImage {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titleImage {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media (max-width: 425px) {
-  .userBlock {
-    right: 1rem;
-    top: 1rem;
-    left: 1rem;
-  }
   .videoHr {
     padding: 0;
   }
