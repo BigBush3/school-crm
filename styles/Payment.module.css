@@ -23,12 +23,13 @@
   font-weight: 400;
   margin-bottom: 31px;
   text-align: center;
+  padding-left: 40px;
 }
 
 .firstBlock {
   display: inline-block;
   position: relative;
-  top: -118px;
+  top: -134px;
 }
 
 .priceBlock {
@@ -290,6 +291,9 @@
   }
   .finalPrice {
     padding-right: 14px;
+  }
+  .title {
+    padding: 0;
   }
 }
 
