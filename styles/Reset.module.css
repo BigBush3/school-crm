@@ -15,7 +15,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: relative;
 }
@@ -27,6 +26,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  top: 245px;
 }
 
 .title {
@@ -36,6 +37,7 @@
   line-height: 1.45;
   font-weight: 700;
   margin-top: 18px;
+  text-align: center;
 }
 
 .buttonReset {
@@ -87,4 +89,91 @@
 .emailInput::placeholder {
   padding: 0 20px;
   opacity: 0.8;
+}
+
+@media (max-width: 1200px) {
+  .block {
+    width: 300px;
+    height: 378px;
+    top: 211px;
+  }
+  .buttonLogin {
+    margin-top: 34px;
+    width: 240px;
+  }
+  .buttonReset {
+    width: 240px;
+  }
+  .emailInput {
+    width: 240px;
+  }
+  .subtitle {
+    width: 240px;
+    padding: 0;
+  }
+  .title {
+    margin-top: 24px;
+    width: 240px;
+  }
+}
+
+@media (max-width: 960px) {
+  .block {
+    top: 146px;
+  }
+}
+
+@media (max-width: 640px) {
+  .block {
+    width: 430px;
+    height: 370px;
+    top: 126px;
+  }
+  .buttonLogin {
+    width: 340px;
+  }
+  .buttonReset {
+    margin-top: 22px;
+    width: 340px;
+  }
+  .emailInput {
+    margin-top: 14px;
+    width: 340px;
+  }
+  .subtitle {
+    margin-top: 22px;
+    width: 340px;
+  }
+  .title {
+    width: 340px;
+  }
+}
+
+@media (max-width: 480px) {
+  .block {
+    width: 300px;
+    height: 384px;
+    top: 83px;
+  }
+  .buttonLogin {
+    margin-top: 34px;
+    width: 240px;
+  }
+  .buttonReset {
+    margin-top: 16px;
+    width: 240px;
+  }
+  .emailInput {
+    margin-top: 8px;
+    width: 240px;
+  }
+  .subtitle {
+    margin-top: 16px;
+    width: 240px;
+    padding: 0;
+  }
+  .title {
+    margin-top: 28px;
+    width: 240px;
+  }
 }

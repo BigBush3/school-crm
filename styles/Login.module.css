@@ -15,7 +15,6 @@
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: relative;
 }
@@ -27,6 +26,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  top: 239px;
 }
 
 .title {
@@ -101,4 +102,85 @@
   width: 78px;
   height: 78px;
   margin-top: 30px;
+}
+
+@media (max-width: 1920px) {
+  .block {
+    top: 190px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .block {
+    width: 300px;
+    height: 409px;
+    top: 187px;
+  }
+  .emailInput {
+    width: 260px;
+  }
+  .passInput {
+    width: 260px;
+  }
+  .buttonSingUp {
+    width: 260px;
+  }
+  .title {
+    width: 260px;
+  }
+  .buttonForgot {
+    width: 260px;
+  }
+}
+
+@media (max-width: 960px) {
+  .block {
+    top: 58px;
+  }
+}
+
+@media (max-width: 640px) {
+  .block {
+    width: 415px;
+    height: 390px;
+    top: 74px;
+  }
+  .emailInput {
+    width: 340px;
+  }
+  .passInput {
+    width: 340px;
+  }
+  .buttonSingUp {
+    width: 340px;
+  }
+  .title {
+    width: 340px;
+  }
+  .buttonForgot {
+    width: 340px;
+  }
+}
+
+@media (max-width: 480px) {
+  .block {
+    width: 300px;
+    height: 409px;
+    top: 111px;
+  }
+  .emailInput {
+    width: 260px;
+  }
+  .passInput {
+    width: 260px;
+  }
+  .buttonSingUp {
+    width: 260px;
+  }
+  .title {
+    width: 260px;
+  }
+  .buttonForgot {
+    width: 260px;
+  }
 }
