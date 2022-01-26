@@ -8,7 +8,7 @@ export default function MyCourses() {
       <div className={styles.main}>
         <div>
           <div className={styles.userBlock}>
-            <div className={styles.userPhoto}>
+            <div className={styles.userPhotoBlock}>
               <img
                 className={styles.userPhoto}
                 src={

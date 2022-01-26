@@ -5,14 +5,25 @@
 
 .userBlock {
   margin-top: 11px;
-  position: absolute;
-  right: 15rem;
+  justify-content: flex-end;
   display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userPhotoBlock {
+  width: 75px;
+  height: 75px;
+  border-radius: 3000px;
+  background-color: #dbdbdb;
 }
 
 .userPhoto {
-  width: 80px;
-  height: 80px;
+  margin-left: 12px;
+  margin-top: 12px;
+  width: 50px;
+  height: 50px;
 }
 
 .userInfo {
@@ -27,8 +38,11 @@
 
 .courseTitle {
   font-size: 32px;
-  padding-top: 150px;
+  padding-top: 45px;
   padding-bottom: 14px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .photoCourse {
@@ -41,10 +55,14 @@
   display: flex;
   width: 100%;
   margin-bottom: 51px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .descCourse {
   display: inline-block;
+  margin-left: 19px;
 }
 
 .descTitle {
@@ -90,13 +108,31 @@
 }
 
 .subtitle {
-  width: 500px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
   padding: 45px 0;
   font-size: 18px;
   opacity: 0.7;
   line-height: 1.35;
   font-family: "JournalSansNew", Arial, sans-serif;
   font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+  .userBlock {
+    max-width: 960px;
+  }
+  .course {
+    max-width: 960px;
+  }
+  .courseTitle {
+    max-width: 960px;
+  }
+  .subtitle {
+    max-width: 960px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -108,12 +144,24 @@
   }
 }
 
+@media (max-width: 960px) {
+  .userBlock {
+    max-width: 640px;
+  }
+  .course {
+    max-width: 640px;
+  }
+  .courseTitle {
+    max-width: 640px;
+  }
+  .subtitle {
+    max-width: 640px;
+  }
+}
+
 @media (max-width: 874px) {
   .main {
     padding: 0 5rem;
-  }
-  .userBlock {
-    right: 5rem;
   }
 }
 
@@ -121,15 +169,11 @@
   .main {
     padding: 0 2.75rem;
   }
-  .userBlock {
-    right: 2.75rem;
-  }
 }
 
 @media (max-width: 640px) {
   .courseTitle {
     width: 100%;
-    text-align: center;
   }
   .course {
     width: 100%;
@@ -142,23 +186,28 @@
   .buttonLearn {
     margin-left: 0;
   }
-  .userBlock {
-    right: 1rem;
-    top: 1rem;
-    left: 1rem;
-  }
   .descCourse {
-    align-items: center;
     display: flex;
     flex-direction: column;
-  }
-  .descTitle {
-    text-align: center;
+    align-items: center;
   }
 }
 
 @media (max-width: 550px) {
   .subtitle {
     width: 100%;
+  }
+  .userPhoto {
+    width: 32px;
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 32px;
+  }
+  .userPhotoBlock {
+    width: 48px;
+    height: 48px;
+  }
+  .userInfo {
+    font-size: 14px;
   }
 }
