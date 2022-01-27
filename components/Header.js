@@ -26,29 +26,67 @@ export default function Header() {
             />
           </li>
           <li>
-            <a className={styles.menuItem} href="#">
-              Courses
+            <a
+              className={styles.menuItem}
+              style={{ paddingLeft: "0" }}
+              href="#"
+            >
+              ● Courses
             </a>
           </li>
           <li>
-            <a className={styles.menuItem} href="#">
-              Contact
+            <a
+              className={styles.menuItem}
+              style={{ paddingLeft: "0" }}
+              href="#"
+            >
+              ● Contact
             </a>
           </li>
           <li>
-            <a className={styles.menuItem} href="#">
-              En Ru
+            <a
+              className={styles.menuItem}
+              style={{ paddingLeft: "0" }}
+              href="#"
+            >
+              En
+            </a>
+          </li>
+          <li>
+            <a
+              className={styles.menuItem}
+              style={{ paddingLeft: "0" }}
+              href="#"
+            >
+              Ru
             </a>
           </li>
           <li>
             <div className={styles.icons}>
-              <IconButton className={styles.iconButton} aria-label="youtube">
-                <YouTubeIcon />
+              <IconButton
+                className={styles.iconButton}
+                style={{ width: "30px", heigth: "30px" }}
+                aria-label="youtube"
+              >
+                <YouTubeIcon style={{ width: "20px", heigth: "20px" }} />
               </IconButton>
-              <IconButton className={styles.iconButton} aria-label="instagram">
-                <InstagramIcon />
+              <IconButton
+                className={styles.iconButton}
+                style={{ width: "30px", heigth: "30px" }}
+                aria-label="instagram"
+              >
+                <InstagramIcon style={{ width: "20px", heigth: "20px" }} />
               </IconButton>
             </div>
+          </li>
+          <li>
+            <a
+              className={styles.menuItem}
+              style={{ fontSize: "16px", paddingLeft: "0", paddingTop: "25px" }}
+              href="#"
+            >
+              En Ru
+            </a>
           </li>
         </ul>
       </div>

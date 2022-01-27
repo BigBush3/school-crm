@@ -67,7 +67,23 @@
   letter-spacing: 1px;
 }
 
-.iconButton {
+.iconButtonTelegram {
+  margin-top: 5px;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  color: #302a42;
+  background: white;
+}
+.iconButtonInstagram {
+  margin-top: 5px;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  color: #302a42;
+  background: white;
+}
+.iconButtonYoutube {
   margin-top: 5px;
   margin-right: 10px;
   height: 30px;

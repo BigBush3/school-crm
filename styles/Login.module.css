@@ -17,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  justify-content: center;
 }
 
 .block {
@@ -137,12 +138,12 @@
   .block {
     top: 58px;
   }
+  .container {
+    min-height: 300px;
+  }
 }
 
 @media (max-width: 640px) {
-  .main {
-    justify-content: center;
-  }
   .block {
     width: 415px;
     height: 390px;
