@@ -165,9 +165,15 @@
   }
 }
 
+@media (max-width: 700px) {
+  .userBlock {
+    padding: 0;
+  }
+}
+
 @media (max-width: 680px) {
   .main {
-    padding: 0 2.75rem;
+    padding: 0 2rem;
   }
 }
 
@@ -175,21 +181,26 @@
   .courseTitle {
     width: 100%;
   }
+  .photoCourse {
+    width: 225px;
+    height: 216px;
+    margin-top: 20px;
+  }
   .course {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .buttonLearn {
-    margin-left: 0;
+    margin-bottom: 25px;
   }
   .descCourse {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .buttonLearn {
+    display: none;
   }
 }
 
@@ -211,3 +222,11 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .userInfo {
+    font-size: 14px;
+  }
+}
+
+

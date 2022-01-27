@@ -46,7 +46,7 @@ export default function Course() {
               <span className={styles.descTitle}>Industrial sketching — </span>{" "}
               <br />
               <span className={styles.descSubtitle}>
-                quick drawing of concepts and objects in the field <br /> of
+                quick drawing of concepts and objects in the field of
                 industrial design
               </span>
             </div>

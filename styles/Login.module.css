@@ -140,10 +140,12 @@
 }
 
 @media (max-width: 640px) {
+  .main {
+    justify-content: center;
+  }
   .block {
     width: 415px;
     height: 390px;
-    top: 74px;
   }
   .emailInput {
     width: 340px;
@@ -166,7 +168,6 @@
   .block {
     width: 300px;
     height: 409px;
-    top: 111px;
   }
   .emailInput {
     width: 260px;

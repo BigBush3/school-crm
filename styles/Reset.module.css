@@ -124,10 +124,12 @@
 }
 
 @media (max-width: 640px) {
+  .main {
+    justify-content: center;
+  }
   .block {
     width: 430px;
     height: 370px;
-    top: 126px;
   }
   .buttonLogin {
     width: 340px;
@@ -153,7 +155,6 @@
   .block {
     width: 300px;
     height: 384px;
-    top: 83px;
   }
   .buttonLogin {
     margin-top: 34px;

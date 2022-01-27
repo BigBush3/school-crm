@@ -298,8 +298,19 @@
 }
 
 @media (max-width: 960px) {
+  .container {
+    margin-top: 0;
+  }
   .firstBlock {
     top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .descBlock {
+    margin-top: 0;
+  }
+  .priceBlock {
+    margin-top: 35px;
   }
   .secondBlock {
     display: block;
@@ -314,6 +325,18 @@
   }
   .descBlock {
     width: 445px;
+  }
+  .title {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 28px;
+    margin-top: 50px;
   }
 }
 
@@ -381,5 +404,8 @@
   }
   .aboutCourse li {
     font-size: 18px;
+  }
+  .title {
+    margin-top: 55px;
   }
 }
