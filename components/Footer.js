@@ -24,21 +24,29 @@ export default function Footer() {
                 <IconButton
                   className={styles.iconButtonTelegram}
                   aria-label="telegram"
-                  style={{ background: "white" }}
+                  style={{ background: "white", marginTop: "2px" }}
                 >
                   <TelegramIcon />
                 </IconButton>
                 <IconButton
                   className={styles.iconButtonInstagram}
                   aria-label="instagram"
-                  style={{ background: "white" }}
+                  style={{
+                    background: "white",
+                    marginTop: "2px",
+                    marginLeft: "10px",
+                  }}
                 >
                   <InstagramIcon />
                 </IconButton>
                 <IconButton
                   className={styles.iconButtonYoutube}
                   aria-label="youtube"
-                  style={{ background: "white", marginTop: "5px" }}
+                  style={{
+                    background: "white",
+                    marginTop: "2px",
+                    marginLeft: "10px",
+                  }}
                 >
                   <YouTubeIcon />
                 </IconButton>
