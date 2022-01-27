@@ -24,7 +24,11 @@ export default function Footer() {
                 <IconButton
                   className={styles.iconButtonTelegram}
                   aria-label="telegram"
-                  style={{ background: "white", marginTop: "2px" }}
+                  style={{
+                    background: "white",
+                    marginTop: "2px",
+                    color: "#302a42",
+                  }}
                 >
                   <TelegramIcon />
                 </IconButton>
@@ -35,6 +39,7 @@ export default function Footer() {
                     background: "white",
                     marginTop: "2px",
                     marginLeft: "10px",
+                    color: "#302a42",
                   }}
                 >
                   <InstagramIcon />
@@ -46,6 +51,7 @@ export default function Footer() {
                     background: "white",
                     marginTop: "2px",
                     marginLeft: "10px",
+                    color: "#302a42",
                   }}
                 >
                   <YouTubeIcon />
