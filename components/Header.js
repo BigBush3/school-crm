@@ -16,6 +16,7 @@ export default function Header() {
         <label className={styles.menuBtn} htmlFor="menu__toggle">
           <span></span>
         </label>
+        <div className={styles.boxShadow}></div>
         <ul id="menuBox" className={styles.menuBox}>
           <li>
             <img
@@ -52,7 +53,7 @@ export default function Header() {
               En
             </a>
           </li>
-          <li>
+          <li className={styles.list}>
             <a
               className={styles.menuItem}
               style={{ paddingLeft: "0" }}

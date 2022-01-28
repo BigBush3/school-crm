@@ -17,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  justify-content: center;
 }
 
 .block {
@@ -27,7 +28,6 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 245px;
 }
 
 .title {
@@ -95,7 +95,6 @@
   .block {
     width: 300px;
     height: 378px;
-    top: 211px;
   }
   .buttonLogin {
     margin-top: 34px;
@@ -118,9 +117,6 @@
 }
 
 @media (max-width: 960px) {
-  .block {
-    top: 0;
-  }
   .main {
     justify-content: center;
   }
